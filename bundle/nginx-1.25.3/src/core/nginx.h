@@ -11,7 +11,7 @@
 
 #define nginx_version      1025003
 #define NGINX_VERSION      "1.25.3"
-#define NGINX_VER          "openresty/" NGINX_VERSION ".1"
+#define NGINX_VER          "SECAPP"
 
 #ifdef NGX_BUILD
 #define NGINX_VER_BUILD    NGINX_VER " (" NGX_BUILD ")"
@@ -19,7 +19,7 @@
 #define NGINX_VER_BUILD    NGINX_VER
 #endif
 
-#define NGINX_VAR          "NGINX"
+#define NGINX_VAR          "secapp"
 #define NGX_OLDPID_EXT     ".oldbin"
 
 
