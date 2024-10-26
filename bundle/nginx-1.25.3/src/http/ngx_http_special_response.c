@@ -20,6 +20,7 @@ static ngx_int_t ngx_http_send_refresh(ngx_http_request_t *r);
 
 static u_char ngx_http_error_full_tail[] =
 "<hr><center>" NGINX_VER "</center>" CRLF
+"<p><em>Powered by <a href=\"https://secapp.org/\">SECAPP</a>.</em></p>"
 "</body>" CRLF
 "</html>" CRLF
 ;
@@ -27,6 +28,7 @@ static u_char ngx_http_error_full_tail[] =
 
 static u_char ngx_http_error_build_tail[] =
 "<hr><center>" NGINX_VER_BUILD "</center>" CRLF
+"<p><em>Powered by <a href=\"https://secapp.org/\">SECAPP</a>.</em></p>"
 "</body>" CRLF
 "</html>" CRLF
 ;
